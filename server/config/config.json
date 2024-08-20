@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "12345sdf",
+    "database": "climatehero",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "port": 5432
+  },
+  "test": {
+    "username": "your_postgres_username",
+    "password": "your_postgres_password",
+    "database": "your_test_database_name",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "port": 5432
+  },
+  "production": {
+    "username": "your_postgres_username",
+    "password": "your_postgres_password",
+    "database": "your_production_database_name",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "port": 5432
+  }
+}

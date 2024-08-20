@@ -1,0 +1,57 @@
+/* SignIn.css */
+
+.signin {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    height: 70vh;
+    padding: 5px;
+    position: relative;
+  }
+  
+  .signinform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .signin div, .signinform button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 5px; /* Adjust as needed for spacing */
+  }
+
+  .sign-image {
+   
+    max-width:40%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    margin-bottom: 20px; /* Add spacing below the image */
+  }
+
+  .imagecontainer{
+    display: inline-block; /* Make the container fit tightly around the image */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+  
+.signupdiv{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+  
